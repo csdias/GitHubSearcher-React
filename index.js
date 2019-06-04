@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import axios from 'axios';
-import './style.css'; 
+import './style.css';
 
 // GitHub usernames: olivia, las82, csdias, luisfdc, matheusbeserra
 const testData = [
