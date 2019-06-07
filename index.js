@@ -6,11 +6,11 @@ import './style.css';
 
 // GitHub usernames: olivia, las82, csdias, luisfdc, matheusbeserra
 const testData = [
-    { id: 1, name: "Olivia Bestina", avatar_url: "https://avatars1.githubusercontent.com/u/781943?v=4", company: "Banco Pan"},
-    { id: 2, name: "Leandro Bocaberta", avatar_url: "https://avatars2.githubusercontent.com/u/16105383?v=4", company: "C6 Bank"},
-    { id: 3, name: "Carlos Soares Dias", avatar_url: "https://avatars2.githubusercontent.com/u/16576809?v=4", company: "C6 Bank"},
-    { id: 4, name: "Luis São Paulino", avatar_url: "https://avatars2.githubusercontent.com/u/18577267?v=4", company: "B3"},    
-    { id: 5, name: "Matheus Bezerro", avatar_url: "https://avatars0.githubusercontent.com/u/19615564?v=4", company: "Nubank"}     
+    { id: 1, name: "Willian Santos Lima", avatar_url: "https://avatars1.githubusercontent.com/u/781943?v=4", company: "Sends Tecnologia"},
+    { id: 2, name: "Leandro Alves Santos", avatar_url: "https://avatars2.githubusercontent.com/u/16105383?v=4", company: "Banco Itaú"},
+    { id: 3, name: "Carlos Soares Dias", avatar_url: "https://avatars2.githubusercontent.com/u/16576809?v=4", company: "Banco BTG"},
+    { id: 4, name: "Luis Fernando Dias Campos", avatar_url: "https://avatars2.githubusercontent.com/u/18577267?v=4", company: "Banco Alfa"},    
+    { id: 5, name: "Matheus Lima Beserra", avatar_url: "https://avatars0.githubusercontent.com/u/19615564?v=4", company: "Banco Alfa"}     
 ];
 
 const CardList = (props) => {
