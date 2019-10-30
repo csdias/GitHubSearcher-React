@@ -6,10 +6,10 @@ import './style.css';
 
 // GitHub usernames: wnlima, las82, csdias, luisfdc, matheusbeserra
 const testData = [
-    { id: 1, name: "Willian Santos Lima", avatar_url: "https://avatars2.githubusercontent.com/u/11538626?v=4", company: "Sends Tecnologia"},
-    { id: 2, name: "Leandro Alves Santos", avatar_url: "https://avatars2.githubusercontent.com/u/16105383?v=4", company: "Banco Itaú"},
-    { id: 3, name: "Carlos Soares Dias", avatar_url: "https://avatars2.githubusercontent.com/u/16576809?v=4", company: "Banco BTG"},
-    { id: 4, name: "Luis Fernando Dias Campos", avatar_url: "https://avatars2.githubusercontent.com/u/18577267?v=4", company: "Banco Alfa"},    
+    { id: 1, name: "Willian Santos Lima", avatar_url: "https://avatars2.githubusercontent.com/u/11538626?v=4", company: "Banco Alfa"},
+    { id: 2, name: "Leandro Alves Santos", avatar_url: "https://avatars2.githubusercontent.com/u/16105383?v=4", company: "Aubay"},
+    { id: 3, name: "Carlos Soares Dias", avatar_url: "https://avatars2.githubusercontent.com/u/16576809?v=4", company: "Aubay"},
+    { id: 4, name: "Luis Fernando Dias Campos", avatar_url: "https://avatars2.githubusercontent.com/u/18577267?v=4", company: "MarketUP"},    
     { id: 5, name: "Matheus Lima Beserra", avatar_url: "https://avatars0.githubusercontent.com/u/19615564?v=4", company: "Banco Alfa"}     
 ];
 
