@@ -1,5 +1,5 @@
 //react-8uxfh9
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import { render } from 'react-dom';
 import axios from 'axios';
 import './style.css';
@@ -14,7 +14,22 @@ const testData = [
 ];
 
 const CardList = (props) => {
-  return <div>{props.profiles.map( profile => <Card key={profile.id} {...profile}/> )}</div>
+
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    console.log('houve uma renderização'); 
+
+    return (() => { console.log('função de limpeza do hook useEffect'); });
+    //or return () => { console.log('função de limpeza do hook useEffect'); }
+  });
+  
+
+  return <div>
+            {props.profiles.map( profile => <Card key={profile.id} {...profile}/> )}
+            <button onClick={ () => setCount(count + 1)} >Click me!</button>
+            <p> You clicked me {count} times</p>            
+        </div>
 }
 
 const Card = (props) => {
