@@ -1,3 +1,6 @@
+//React from scracth ->
+//https://medium.com/@amanriquez.guitar/full-stack-react-node-application-from-scratch-2019-4023df0a37fb
+
 //react-8uxfh9
 import React, { Component, useState, useEffect } from 'react';
 import { render } from 'react-dom';
